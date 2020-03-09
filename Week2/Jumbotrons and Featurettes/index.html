@@ -8,19 +8,27 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-	<title>Hello, world!</title>
-  </head>
+	<style>
+	.jumbotron{
+		background-size:cover;
+		background-position: center;
+	}
+	</style>	
+</head>
+
+
   <body>
-	<div class="jumbotron jumbotron-fluid">
+	<div class="jumbotron jumbotron-fluid" style="background-image: url(https://media.cntraveler.com/photos/577d3357a08a7cb205515858/master/pass/california-beaches-03-huntington-beach-GettyImages-89571676.jpg);">
 		<div class="container">
-		  <h1 class="display-4">Fluid jumbotron</h1>
-		  <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-		  <hr class="my-4">
-		  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+		  <h1 class="display-4 text-light">Fluid jumbotron</h1>
+		  <p class="lead text-danger">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+		  <hr class="my-4 boarder-danger">
+		  <p class="text-light bg-dark">It uses utility classes for typography and spacing to space content out within the larger container.</p>
 		  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 		</div>
 		</div>
 	  </div>
+
 <div class="container">
 	   <!-- START THE FEATURETTES -->
 
@@ -31,8 +39,12 @@
 		   <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
 		   <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 		 </div>
-		 <div class="col-md-5">
-		   <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+		 <div class="col-md-4">
+		   <picture>
+			   <source media="(min-width:1200px)" srcset="husky-500.jpg">
+			   <source media="(min-width:768px)" srcset="husky-370.jpg">
+			   <img src="husky-370.jpg" alt="husky running on beach">
+		   </picture>
 		 </div>
 	   </div>
 
@@ -44,7 +56,12 @@
 		   <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 		 </div>
 		 <div class="col-md-5 order-md-1">
-		   <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+			<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+			height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+			role="img" aria-label="Placeholder: 500x500">
+			<title>Placeholder</title>
+			<rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+		  </svg>
 		 </div>
 	   </div>
 
@@ -56,7 +73,12 @@
 		   <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 		 </div>
 		 <div class="col-md-5">
-		   <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+			<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+			height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+			role="img" aria-label="Placeholder: 500x500">
+			<title>Placeholder</title>
+			<rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+		  </svg>
 		 </div>
 	   </div>
 

@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                        <form>
+                        <form action=""  method="POST" enctype="multipart/form-data">
                             <div class="form-group">
                               <label for="exampleInputEmail1">Email address</label>
                               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -27,7 +27,7 @@
                               <label for="exampleInputPassword1">Password</label>
                               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                             </div>
-                            
+
                             <div class="form-group">
                                 <label for="exampleFormControlSelect2">Example multiple select</label>
                                 <select multiple class="form-control" id="exampleFormControlSelect2">
@@ -38,6 +38,14 @@
                                   <option>5</option>
                                 </select>
                               </div>
+
+                              <form>
+                                <div class="form-group">
+                                  <label for="exampleFormControlFile1">Example file input</label>
+                                  <input type="file" class="form-control-file" id="exampleFormControlFile1"
+                                  accept="application/pdf" multiple>
+                                </div>
+                              </form>
 
                             <div class="form-group form-check">
                               <input type="checkbox" class="form-check-input" id="exampleCheck1">

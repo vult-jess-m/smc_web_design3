@@ -1,3 +1,16 @@
+h3{
+    font-family: 'Homemade Apple', cursive;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family:'Lato', sans-serif;
+    color:white;
+}
+
 .navbar-brand img {
     max-width: 75px;
 

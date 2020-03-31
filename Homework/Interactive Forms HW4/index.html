@@ -65,6 +65,7 @@
 </div>
 </div>
 <!--CARDS-->
+<div class="deck">
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-1">
     <div class="col col-sm-12 col-md-6 col-lg-3 mb-4">
         <div class="card h-100">
@@ -102,8 +103,8 @@
             </div>
         </div>
     </div>
+    </div>
 </div>
-
 <!--FORM-->
 <form class="check-out">
 
@@ -171,7 +172,7 @@
             <div class="col">
                 <label for="validationCardExpiration">Expiration Date</label>
                 <input type="text" class="form-control" id="validationExpiration Date"
-                    placeholder="Name MM/YY" required>   
+                    placeholder="MM/YY" required>   
                 </div>
                 <div class="col">
                     <label for="validationCardCVC">CVC</label>
@@ -191,6 +192,12 @@
                       <option value="">Express - $5.00 - 3 business days</option>
                       <option value="">Next Day - $15.00 - Next day</option>
                     </select>
+                    <div class="Submit">
+                        <button class="btn btn-sm btn-warning text-center text-body float-right"
+                            style="margin-top: 30px;" type="submit">
+                            <h5>Submit</h5>
+                        </button>
+                    </div>
                 </form>
             </div>
         </div>
@@ -203,7 +210,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <!--SCRIPT-->  
 <script>
-
+  $(document).ready(function () {
+            $("form").hide();
+            $(".btn-dark").click(function () {
+                $("form").show();
+                $(".btn-dark").show();
+                $(".deck").hide();
+            });
 </script>
 </body>
 </html>

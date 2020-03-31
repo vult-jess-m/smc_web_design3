@@ -20,6 +20,10 @@ p{
     color:white;
 }
 
+.button navbar-toggler-icon {
+    color:white;
+}
+
 i.fa.fa-shopping-cart{
     color:white;
     font-size: 24pt;

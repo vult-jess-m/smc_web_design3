@@ -18,7 +18,7 @@
   <body>
  <!--NAVBAR-->
  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-    <a class="navbar-brand" href="#"><img src="assets/doggo-logo-crop.jpg" alt="doggo-logo"></a>
+    <a class="navbar-brand" href="#"><img src="assets/liquor-logo.jpg" alt="doggo-logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -219,6 +219,19 @@
                 $(".deck").hide();
             });
         });
+</script>
+<script>
+        function copyInfo(form) {
+            var checked = form.inlineCheckbox1.checked;
+            form.validationFirstName.value = checked ? form.validationFirstName.value : "";
+            form.validationLastName.value = checked ? form.validationLastName.value : "";
+            form.validationAddress.value = checked ? form.validationAddress.value : "";
+            form.validationAddressB.value = checked ? form.validationAddressB.value : "";
+            form.validationCity.value = checked ? form.validationCity.value : "";
+            form.validationState.value = checked ? form.validationState.value : "";
+            form.validationZipCode.value = checked ? form.validationZip.value : "";
+        }
+    </script>     
 </script>
 </body>
 </html>

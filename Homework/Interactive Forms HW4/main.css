@@ -1,3 +1,16 @@
+.navbar-brand img {
+    max-width: 75px;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+
+
+
+
+
 .jumbotron {
     background-size: cover;
     background-position: center;   

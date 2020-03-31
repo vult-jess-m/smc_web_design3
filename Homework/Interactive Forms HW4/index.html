@@ -110,12 +110,12 @@
     <fieldset>
         <h4>Address</h4>
         <div class="row">
-            <div class="col col-sm-12 md-6">
+            <div class="col-12 col-sm-12 col-md-6">
                 <label for="validationFirstName">First Name</label>
                 <input type="text" class="form-control" id="validationFirstName"
                     placeholder="First Name" required> 
             </div>
-            <div class="col col-sm-12 md-6">
+            <div class="col-12 col-sm-12 col-md-6">
               <label for="validationLastName">Last Name</label>
               <input type="text" class="form-control" id="validationLastName"
                   placeholder="Last Name" required>   
@@ -123,12 +123,12 @@
           </div>
         
          <div class="row">
-             <div class="col col-sm-12 md-10">
+             <div class="col-12 col-sm-12 col-md-10">
                 <label for="validationAddress">Address</label>
                 <input type="text" class="form-control" id="validationAddress"
                     placeholder="1234 Hill St " required>   
              </div>
-             <div class="col col-sm-12 md-2">
+             <div class="col-12 col-sm-12 col-md-2">
                 <label for="validatioinAddressB">Unit</label>
                 <input type="text" class="form-control" id="validationAdressB"
                     placeholder="Unit #">   
@@ -136,17 +136,17 @@
          </div> 
 
          <div class="row">
-             <div class="col col-sm-12 md-5">
+             <div class="col-12 col-sm-12 col-md-5">
                 <label for="validationCity">City</label>
                 <input type="text" class="form-control" id="validationCity"
                     placeholder="City" required>   
              </div>
-             <div class="col col-sm-6 md-2">
+             <div class="col-12 col-sm-6 col-md-2">
                 <label for="validationState">State</label>
                 <input type="text" class="form-control" id="validationState"
                     placeholder="CA" required>   
              </div>
-             <div class="col col-sm-6 md-3">
+             <div class="col-12 col-sm-6 col-md-3">
                 <label for="validationZipCode">Zip Code</label>
                 <input type="text" class="form-control" id="validationZipCode"
                     placeholder="90000" required>   
@@ -155,10 +155,45 @@
     </fieldset>
     <fieldset>
         <h4>Payment</h4>
-
+        <div class="row">
+            <div class="col">
+            <label for="validationCardName">Card Name</label>
+            <input type="text" class="form-control" id="validationCardName"
+                placeholder="Name on Card" required>   
+            </div>
+            <div class="col">
+                <label for="validationCardNumber">Card Number</label>
+                <input type="text" class="form-control" id="validationCardNumber"
+                    placeholder="1234-5678-9012-3456" required>   
+                </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="validationCardExpiration">Expiration Date</label>
+                <input type="text" class="form-control" id="validationExpiration Date"
+                    placeholder="Name MM/YY" required>   
+                </div>
+                <div class="col">
+                    <label for="validationCardCVC">CVC</label>
+                    <input type="text" class="form-control" id="validationCardCVC"
+                        placeholder="CVC" required>   
+                    </div>
+        </div>
     </fieldset>
     <fieldset>
         <h4>Shipping</h4>
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <select>
+                      <option value="">Choose Shipping</option>
+                      <option value="">Standard - Free - 5 business days</option>
+                      <option value="">Express - $5.00 - 3 business days</option>
+                      <option value="">Next Day - $15.00 - Next day</option>
+                    </select>
+                </form>
+            </div>
+        </div>
     </fieldset>
 </form>
     <!-- Optional JavaScript -->

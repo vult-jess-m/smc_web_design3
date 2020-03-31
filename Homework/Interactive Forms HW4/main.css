@@ -18,3 +18,11 @@ i.fa.fa-shopping-cart{
     background-size: cover;
     background-position: center;   
 }
+
+
+.card-img, .card-img-bottom, .card-img-top {
+    height:250px;
+}
+.h-100{
+    background-color: #ffe493;
+}

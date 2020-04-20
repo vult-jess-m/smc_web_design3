@@ -1,10 +1,18 @@
-.carousel-item{
-    max-height: 450px;
-}
 .img{
     width: fit-content;
     height: fit-content;
 }
+
+.carousel-item{
+    max-height: 450px;
+}
+
+.carousel-item img {
+    max-width:100%;
+    width:100%;
+    
+  }
+
 .jumbotron{
     background-size:cover;
     background-position: center;

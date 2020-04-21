@@ -7,7 +7,16 @@ body{
     width: fit-content;
     height: fit-content;
 }
+/*NAV*/
+.bg-success{
+    background-color:#4c6752ba!important;
+} 
+/*ALERT*/
+.alert-danger {
+    text-align: center;
+}
 
+/*CAROUSEL*/
 .carousel-item{
     max-height: 450px;
     height:100%;
@@ -22,18 +31,16 @@ body{
     background-position: center;
 }
 
-.row{
+.row.featurette{
     background-color: #ffffc1;
 }
-
+/*CARDS*/
 .card-img, .card-img-bottom, .card-img-top {
     height:250px;
 }
 
-.bg-success{
-    background-color:#4c6752ba!important;
-} 
-
-.alert-danger {
+.card-body{
     text-align: center;
 }
+
+

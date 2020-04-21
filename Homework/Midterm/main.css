@@ -34,6 +34,10 @@ body{
 .row.featurette{
     background-color: #ffffc1;
 }
+
+.ml-2-md-6{
+    margin-left: 20px!important;
+}
 /*CARDS*/
 .card-img, .card-img-bottom, .card-img-top {
     height:250px;
@@ -43,4 +47,7 @@ body{
     text-align: center;
 }
 
+.input{
+    size: 250px;
+}
 

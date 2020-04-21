@@ -24,6 +24,10 @@ h4{
     font-family: 'Fugaz One', cursive;
 }
 
+h5{
+    font-family: 'Fugaz One', cursive; 
+}
+
 p{
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -73,7 +77,13 @@ p{
 .input{
     size: 250px;
 }
-
-nav{
-    background-color:darkgreen;
+.modal-content{
+    background-image: url(https://cdn.branchcms.com/3OdwbpqLMm-1067/images/blog/black-widow-spider.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.text-danger{
+    color: yellow!important;
+    font-size: 15pt;
+    font-family: 'Fugaz One', cursive; 
 }

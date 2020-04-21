@@ -17,4 +17,12 @@ $(document).ready(function(){
 
         $('#carouselControl').toggleClass('paused');
     });
+
+    $('#modalLauncher').click(function(){
+        $('#exampleModal').modal({
+            backdrop: false
+        });
+    });
+
+
 });

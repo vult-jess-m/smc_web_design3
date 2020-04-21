@@ -1,3 +1,8 @@
+body{
+    background-color:#76a581;
+
+}
+
 .img{
     width: fit-content;
     height: fit-content;
@@ -17,6 +22,10 @@
     background-position: center;
 }
 
+.row{
+    background-color: #ffffc1;
+}
+
 .card-img, .card-img-bottom, .card-img-top {
     height:250px;
 }
@@ -24,3 +33,7 @@
 .bg-success{
     background-color:#4c6752ba!important;
 } 
+
+.alert-danger {
+    text-align: center;
+}

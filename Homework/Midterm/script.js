@@ -1,8 +1,9 @@
 $(document).ready(function(){
-
+    $("#myModal").modal('show');
     $('#bugCarousel').carousel({
         interval: 580
     });
+    
 
     $('#carouselControl').click(function(){
         

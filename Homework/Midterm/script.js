@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#myModal").modal('show');
+    
     $('#bugCarousel').carousel({
         interval: 580
     });
@@ -19,11 +19,8 @@ $(document).ready(function(){
         $('#carouselControl').toggleClass('paused');
     });
 
-    $('#modalLauncher').click(function(){
-        $('#exampleModal').modal({
-            backdrop: false
-        });
-    });
+$("#newsettler").modal('show');
+    
 
 
 });

@@ -2,3 +2,8 @@
     width: max-content;
     height: 200px;
 }
+
+.bg-gardient{
+    background-color: white;
+    background-image: linear-gradient(to bottom right, red, yellow,pink);
+}

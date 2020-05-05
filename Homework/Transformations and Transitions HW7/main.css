@@ -5,5 +5,5 @@
 
 .bg-gardient{
     background-color: white;
-    background-image: linear-gradient(to bottom right, red, yellow,pink);
+    background-image: linear-gradient(to bottom right,lightblue, lightgray,#979cf8);
 }

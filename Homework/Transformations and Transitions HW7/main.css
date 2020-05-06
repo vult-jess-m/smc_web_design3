@@ -1,9 +1,19 @@
+a{
+    font-family: 'Righteous', cursive;
+}
+
 nav a:hover{
     transform: scale(1, 2);
 }
 
+nav-bar a{
+    color:black;
+}
 
+.navbar-light .navbar-brand:hover{
 
+    color: white!important;
+}
 
 .col-6{
     padding-left:0;

@@ -3,7 +3,7 @@ body{
 }
 
 
-h3, h6,p{
+h3, h6{
     color:white;
 }
 .navbar-brand img{
@@ -27,8 +27,9 @@ svg{
      
 
 }
-.text-box{
-    background-color:white;
+p{
+    color:white;
+    animation:p 3s ease-in alternate;
 }
 @keyframes svg{
     from{
@@ -38,4 +39,14 @@ svg{
         transform:translateY(10px);
 
     }
+}
+
+@keyframes p{
+ from{
+     color:paleturquoise;
+ 
+    }
+to{
+    color:white;
+}
 }

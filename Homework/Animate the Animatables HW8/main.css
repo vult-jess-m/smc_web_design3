@@ -1,3 +1,9 @@
+.navbar-brand img{
+    max-width: 75px;
+  }
+ .bg-dark{
+     background-color: black!important;
+ } 
 .jumbotron{
     background-image: url(https://www.cinemamakeup.com/wp-content/uploads/2019/02/sfx-banner.jpg);
     background-size:cover;
@@ -19,7 +25,7 @@ svg{
         transform: translateY(0px);
     }
     to{
-        transform:translateY(20px);
+        transform:translateY(10px);
 
     }
 }

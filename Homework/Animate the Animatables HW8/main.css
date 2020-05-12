@@ -3,8 +3,14 @@ body{
 }
 
 
-h3, h6{
-    color:white;
+h1,h3, h6{
+font-family: clarendon-wide-stencil, sans-serif;
+font-weight: 400;
+font-style: normal;
+color:white;
+}
+.container-text{
+    margin-left:30px;
 }
 .navbar-brand img{
     max-width: 75px;
@@ -30,13 +36,17 @@ svg{
 p{
     color:white;
     animation-delay: 10s ease-in alternate;
-    animation:p 3s ease-in alternate;
+    animation:p 3s ease-in infinite alternate;
 }
-a{
+a{  font-family: clarendon-wide-stencil, sans-serif;
+
+    font-weight: 400;
+    
+    font-style: normal;
     color:white;
     animation: a 2s ease-in alternate;
 }
-a:hover{
+a nav-link:hover{
     color:lightblue;
 }
 @keyframes svg{

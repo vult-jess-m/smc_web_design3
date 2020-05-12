@@ -3,7 +3,11 @@
     background-size:cover;
     background-position: center;
 }
-
+.container{
+    position: absolute;
+    display: inline-block;
+    margin-left:5px;
+}
 svg{
      animation:svg .5s ease-in-out infinite alternate;
      
@@ -15,7 +19,7 @@ svg{
         transform: translateY(0px);
     }
     to{
-        transform:translateY(30px);
+        transform:translateY(20px);
 
     }
 }

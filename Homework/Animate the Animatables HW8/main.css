@@ -29,7 +29,15 @@ svg{
 }
 p{
     color:white;
+    animation-delay: 10s ease-in alternate;
     animation:p 3s ease-in alternate;
+}
+a{
+    color:white;
+    animation: a 2s ease-in alternate;
+}
+a:hover{
+    color:lightblue;
 }
 @keyframes svg{
     from{
@@ -43,10 +51,19 @@ p{
 
 @keyframes p{
  from{
-     color:paleturquoise;
+     color:#366fac;
  
     }
 to{
     color:white;
 }
+}
+
+@keyframes a{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity:100%;
+    }
 }

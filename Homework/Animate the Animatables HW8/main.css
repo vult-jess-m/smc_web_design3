@@ -4,17 +4,18 @@
     background-position: center;
 }
 
-#nurse{
-    animation: nurse 1s ease-in-out;
+svg{
+     animation:svg .5s ease-in-out infinite alternate;
+     
 
 }
 
-@keyframes nurse{
+@keyframes svg{
     from{
-        transform: rotateX(0deg)
+        transform: rotateX(0deg);
     }
     to{
-        transform:rotate(15deg)
+        transform:rotateX(20deg);
 
     }
 }

@@ -12,10 +12,10 @@ svg{
 
 @keyframes svg{
     from{
-        transform: rotateX(0deg);
+        transform: translateY(0px);
     }
     to{
-        transform:rotateX(20deg);
+        transform:translateY(30px);
 
     }
 }

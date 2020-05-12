@@ -1,3 +1,20 @@
 .jumbotron{
     background-image: url(https://www.cinemamakeup.com/wp-content/uploads/2019/02/sfx-banner.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+#nurse{
+    animation: nurse 1s ease-in-out;
+
+}
+
+@keyframes nurse{
+    from{
+        transform: rotateX(0deg)
+    }
+    to{
+        transform:rotate(15deg)
+
+    }
 }

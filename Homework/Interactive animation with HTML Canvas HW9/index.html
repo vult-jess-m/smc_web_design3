@@ -19,7 +19,7 @@
     var ballColor = 'rgb(154, 23,130)';
     var ballPosX = canvas.width/2;
     var ballPosY = canvas.height/2;
-    var ballRadius = 50;
+    var ballRadius = 60;
 
     var ballSpeedX = 3;
     var ballSpeedY = 2;
@@ -42,9 +42,9 @@
         ballSpeedY = ballSpeedY * -1;
       }
 
-      ballPosX = ballPosX + ballSpeedX;
-      ballPosY = ballPosY + ballSpeedY;
-
+      ballPosX = ballPosX + ballSpeedX ;
+      ballPosY = ballPosY + ballSpeedY ;
+      ballRadius *2;
       window.requestAnimationFrame(animate);
     
     
@@ -60,7 +60,8 @@
         console.log("FIRE!!!");
       }
     })
-    const setBg = () => {
+    //color change
+  const setBg = () => {
   const randomColor = Math.floor(Math.random()*16777215).toString(16);
   ballColor = "#" + randomColor;
   

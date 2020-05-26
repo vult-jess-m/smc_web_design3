@@ -54,3 +54,4 @@ ballColor = "#" + randomColor;
 genNew.addEventListener("click", setBg);
 setBg();
 
+

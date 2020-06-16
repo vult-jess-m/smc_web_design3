@@ -47,3 +47,25 @@ $("#newsettler").modal('show');
   }, false);
 })();
 
+
+//Shopping Cart
+
+var currentItems = 0;
+$(document).ready(function () {
+    $(".accordion-heading").click(function () {
+        if ($(".accordion-body").is(':visible')) {
+            /* check the condition accordion-body is visible or not */
+            $(".accordion-body").slideUp(200); /*if content is visible then close accordion-body with specific time duration */
+            $(".plusminus").text('+') /* add plus sign */
+        } else {
+            $(this).next(".accordion-body").slideDown(200);
+            /*if content not visible then 
+                                                                                                                      show the accordion-body */
+            $(this).children(".plusminus").text('-'); /* add minus sign */
+        }
+    });
+    $(".cart").click(function () {
+        currentItems++;
+        $(".cart-number").text(currentItems);
+    });
+})

@@ -14,6 +14,11 @@ a{
     transition: 2s;
     
 }
+
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    font-family: 'Satisfy', cursive;
+}
 footer{
     position:sticky;
     background-image: url(https://66.media.tumblr.com/0c6391445943564178ad48ed23e222c4/tumblr_mhaqqtpV0C1s4wod0o2_500.jpg);

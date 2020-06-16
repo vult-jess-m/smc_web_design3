@@ -1,12 +1,18 @@
 body{
     background-color: lightpink;
 }
-
+a{
+    margin-right:30px;
+}
 footer{
     position:sticky;
     background-color: lightslategray;
+    
 }
-
+.list-unstyled{
+    display:flex;
+    margin-right: 10px;
+}
 .card img{
     height:250px;
 }

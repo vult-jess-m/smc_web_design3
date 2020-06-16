@@ -137,3 +137,7 @@ button.cart:hover{
     font-family: 'Nunito', sans-serif;
     transition:2s;
 }
+
+.col-xs-12, .col-sm-12{
+ margin-bottom: 20px;
+} 

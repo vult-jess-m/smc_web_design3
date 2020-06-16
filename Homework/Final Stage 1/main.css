@@ -1,3 +1,7 @@
 body{
     background-color: lightpink;
 }
+
+footer{
+    position:sticky;
+}

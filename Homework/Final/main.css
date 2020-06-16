@@ -14,7 +14,9 @@ a:hover{
 h1, h4{
     font-family: 'Nunito', sans-serif;
 }
-
+.container{
+    margin-top: 50px;
+}
 .navbar-light .navbar-nav .nav-link {
     color:white;
     font-family: 'Nunito', sans-serif;
@@ -119,4 +121,17 @@ button.cart{
     bottom: 1px;
     margin: 10px;
     font-family: 'Nunito', sans-serif;
+}
+
+button.cart:hover{
+
+    background-color:red;
+    color:white;
+    border-radius: 10px;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    transition:2s;
 }

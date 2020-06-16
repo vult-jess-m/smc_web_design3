@@ -5,3 +5,10 @@ body{
 footer{
     position:sticky;
 }
+
+.card img{
+    height:250px;
+}
+.h-100{
+    height:100%!important;
+}

@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
     $('#candyCarousel').carousel({
-        interval: 580
+        interval: 3000
     });
     
 

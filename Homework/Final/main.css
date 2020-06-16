@@ -27,7 +27,15 @@ footer{
     background-size:cover;
     background-position: center;
 }
-
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    /* opacity: .5; */
+}
 .carousel-item{
     max-height: 450px;
     height:100%;
@@ -36,6 +44,10 @@ footer{
 .d-block{
     height:450px;
     
+}
+
+.bg-danger {
+    background-color: #ebebeb52!important;
 }
 .list-unstyled{
     display:flex;

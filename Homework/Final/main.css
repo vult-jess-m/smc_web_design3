@@ -8,6 +8,9 @@ a{
     color:white;
 
 }
+h1, h4{
+    font-family: 'Nunito', sans-serif;
+}
 .navbar-light .navbar-nav .nav-link:hover{
     background-color: pink;
     border-radius: 25px;
@@ -52,7 +55,7 @@ footer{
 }
 
 .bg-danger {
-    background-color: #ebebeb52!important;
+    background-color: #aeacac52!important;
 }
 .list-unstyled{
     display:flex;
@@ -85,3 +88,12 @@ margin-left:20px;
 }
 
 /*--SHOP--*/
+button.cart{
+
+    background-color:pink;
+    border-radius: 10px;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    margin: 10px;
+}

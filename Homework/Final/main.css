@@ -8,6 +8,9 @@ a{
     color:white;
 
 }
+a:hover{
+    color:white;
+}
 h1, h4{
     font-family: 'Nunito', sans-serif;
 }
@@ -22,11 +25,24 @@ h1, h4{
     color: rgba(0,0,0,.9);
     font-family: 'Satisfy', cursive;
 }
+.navbar-brand img{
+    max-width: 25px;
+  }
+.bg-light {
+    background-color: #fed4ea!important;
+}
 footer{
     position:sticky;
-    background-image: url(https://66.media.tumblr.com/0c6391445943564178ad48ed23e222c4/tumblr_mhaqqtpV0C1s4wod0o2_500.jpg);
     background-position: center;
     background-size:cover;
+    background-color:pink;
+    
+}
+
+footer a:hover{
+    background-color: rgb(238, 46, 78);
+    border-radius: 5px;
+    transition: 1.5s;
     
 }
 
@@ -91,9 +107,11 @@ margin-left:20px;
 button.cart{
 
     background-color:pink;
+    color:white;
     border-radius: 10px;
     position: absolute;
     right: 1px;
     bottom: 1px;
     margin: 10px;
+    font-family: 'Nunito', sans-serif;
 }

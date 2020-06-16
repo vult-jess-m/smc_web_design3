@@ -24,3 +24,17 @@ footer{
     background-size: cover;
     background-position: center;   
 }
+/*--Blog*/
+.iframe{
+    width:100%;
+}
+
+.video{
+    background-color:black;
+}
+
+/*--Contact--*/
+
+.col-md-3{
+margin-left:20px;
+}

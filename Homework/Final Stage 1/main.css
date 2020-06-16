@@ -4,6 +4,7 @@ body{
 
 footer{
     position:sticky;
+    background-color: lightslategray;
 }
 
 .card img{
